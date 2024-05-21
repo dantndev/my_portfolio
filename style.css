@@ -122,7 +122,6 @@
     }
   }
   
-
 .btns {
     display: flex;
     justify-content: center;
@@ -142,6 +141,8 @@
     font-weight: 500;
     text-align: center;
     margin-right: 1rem;
+    min-height: 3rem;
+    min-width: 8rem;
 }
 
 .cv-download:hover {
@@ -167,6 +168,8 @@
     font-weight: 500;
     text-align: center;
     margin-left: 1rem;
+    min-height: 3rem;
+    min-width: 8rem;
 }
 
 .contact-me:hover {
@@ -180,7 +183,6 @@
     box-shadow: none;
     transform: translateY(0);
   } 
-
 
 
 /*ABOUT ME*/
