@@ -10,8 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
-    padding: 10px;
+    padding: 2rem;
+    /*border: 1px solid;*/
 }
 
 .nav-menu {
@@ -32,17 +32,83 @@
 .ls-itm {
     text-decoration: none;
     color: black;
+    font-weight: 600;
 }
 
 /* HERO SECTION*/
 
-.hero-sect {
+#hero-sect {
+    background: rgb(221,221,221);
+    background: linear-gradient(0deg, rgba(227,227,227,1) 0%, rgba(255,255,255,1) 100%);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*border: 1px solid;*/
+}
+
+.fade-in-bottom {
+	animation: fade-in-bottom 1.0s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes fade-in-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+.hero-items {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;   
+    /*border: 1px solid;*/
+}
+
+.imagen-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+   /* border: 1px solid;*/
+}
+
+.hero-text {
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+
+.my-data {
+    text-align: center;
+}
+
+.hello {
+    color: gray;
+    font-weight: 600;
 }
 
 .hero-title {
-    font-weight: 800;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
+
+.hero-subtitle {
+    color: gray;
+    font-weight: 600;
+}
+
+.avatar {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
 
 
 
