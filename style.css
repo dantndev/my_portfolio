@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* HEADER */
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-itm {
+    margin: 10px 20px;
+}
+
+.ls-itm:hover {
+    color: gray;
+}
+
+.ls-itm {
+    text-decoration: none;
+    color: black;
+}
+
+/* HERO SECTION*/
+
+.hero-sect {
+    display: flex;
+}
+
+.hero-title {
+    font-weight: 800;
+}
+
+
+
+
+
